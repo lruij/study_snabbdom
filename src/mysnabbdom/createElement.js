@@ -5,7 +5,7 @@
  * @param {*} vnode 虚拟节点
  */
 export default function createElement(vnode) {
-  console.log('createElement', vnode)
+  // console.log(':: -- vnode 转 dom')
   // 创建一个 Dom 节点
   let domNode = document.createElement(vnode.sel);
 
